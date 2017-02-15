@@ -1,0 +1,310 @@
+$date
+	Wed Feb 15 01:02:13 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module Testbench $end
+$var wire 1 ! ready $end
+$var wire 6 " processor_status [5:0] $end
+$var wire 16 # operand1 [15:0] $end
+$var wire 16 $ operand0 [15:0] $end
+$var wire 16 % data1 [15:0] $end
+$var wire 16 & data0 [15:0] $end
+$var wire 5 ' ctrlword [4:0] $end
+$var wire 5 ( addr1 [4:0] $end
+$var wire 5 ) addr0 [4:0] $end
+$var reg 1 * clk $end
+$var reg 1 + preset $end
+$scope module ctrl_unit $end
+$var wire 1 * clk $end
+$var wire 1 + preset $end
+$var wire 6 , status [5:0] $end
+$var wire 2 - nextstate [1:0] $end
+$var reg 5 . ctrlword [4:0] $end
+$var reg 2 / state [1:0] $end
+$upscope $end
+$scope module dispatch_unit $end
+$var wire 1 0 clk $end
+$var wire 1 1 path0 $end
+$var wire 1 2 path1 $end
+$var wire 1 + preset $end
+$var wire 1 3 selpath $end
+$var wire 1 4 zer1 $end
+$var wire 1 5 zer0 $end
+$var wire 16 6 data1 [15:0] $end
+$var wire 16 7 data0 [15:0] $end
+$var reg 16 8 operand0 [15:0] $end
+$var reg 16 9 operand1 [15:0] $end
+$var reg 1 : path $end
+$upscope $end
+$scope module fetch_unit $end
+$var wire 5 ; addr1 [4:0] $end
+$var wire 1 < clk $end
+$var wire 4 = ctrlword [3:0] $end
+$var wire 1 + preset $end
+$var wire 1 ! ready $end
+$var wire 5 > addr0 [4:0] $end
+$var reg 5 ? bp [4:0] $end
+$var reg 5 @ dp0 [4:0] $end
+$var reg 5 A dp1 [4:0] $end
+$var reg 1 B selmuxbp $end
+$upscope $end
+$scope module mem $end
+$var wire 5 C addr0 [4:0] $end
+$var wire 5 D addr1 [4:0] $end
+$var wire 16 E data0 [15:0] $end
+$var wire 16 F data1 [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx F
+bx E
+bx D
+bx C
+xB
+bx A
+bx @
+bx ?
+bx >
+b0 =
+1<
+bx ;
+0:
+bx 9
+bx 8
+bx 7
+bx 6
+x5
+x4
+03
+12
+01
+10
+bx /
+b0 .
+b10 -
+bx1110 ,
+0+
+0*
+bx )
+bx (
+b0 '
+bx &
+bx %
+bx $
+bx #
+bx1110 "
+x!
+$end
+#5
+1+
+#10
+b1 /
+00
+0<
+1*
+#20
+1!
+04
+b1110 "
+b1110 ,
+05
+0B
+b1010000000001010 #
+b1010000000001010 9
+b1010000000001010 $
+b1010000000001010 8
+b1 ?
+b1010000000001010 %
+b1010000000001010 6
+b1010000000001010 F
+b1 (
+b1 ;
+b1 D
+b1 A
+b1010000000001010 &
+b1010000000001010 7
+b1010000000001010 E
+b0 )
+b0 >
+b0 @
+b0 C
+10
+1<
+0*
+#25
+0+
+#30
+b1111 =
+b11110 '
+b11110 .
+b10 /
+00
+0<
+1*
+#40
+b10 )
+b10 >
+b10 @
+b10 C
+b11 (
+b11 ;
+b11 D
+b11 A
+10
+1<
+0*
+#50
+b11 ?
+00
+0<
+1*
+#60
+b100 )
+b100 >
+b100 @
+b100 C
+b101 (
+b101 ;
+b101 D
+b101 A
+10
+1<
+0*
+#70
+b101 ?
+00
+0<
+1*
+#80
+b1111111111111111 #
+b1111111111111111 9
+b1111111111111111 $
+b1111111111111111 8
+b1111111111111111 &
+b1111111111111111 7
+b1111111111111111 E
+b110 )
+b110 >
+b110 @
+b110 C
+b1111111111111111 %
+b1111111111111111 6
+b1111111111111111 F
+b111 (
+b111 ;
+b111 D
+b111 A
+10
+1<
+0*
+#90
+b111 ?
+00
+0<
+1*
+#100
+b100000 #
+b100000 9
+b1 $
+b1 8
+b1 &
+b1 7
+b1 E
+b1000 )
+b1000 >
+b1000 @
+b1000 C
+b100000 %
+b100000 6
+b100000 F
+b1001 (
+b1001 ;
+b1001 D
+b1001 A
+10
+1<
+0*
+#110
+b1001 ?
+00
+0<
+1*
+#120
+b11 #
+b11 9
+b10101010 $
+b10101010 8
+b10101010 &
+b10101010 7
+b10101010 E
+b1010 )
+b1010 >
+b1010 @
+b1010 C
+b11 %
+b11 6
+b11 F
+b1011 (
+b1011 ;
+b1011 D
+b1011 A
+10
+1<
+0*
+#130
+b1011 ?
+00
+0<
+1*
+#140
+b1010000000001010 #
+b1010000000001010 9
+b1010000000001010 $
+b1010000000001010 8
+b1010000000001010 &
+b1010000000001010 7
+b1010000000001010 E
+b1100 )
+b1100 >
+b1100 @
+b1100 C
+b1010000000001010 %
+b1010000000001010 6
+b1010000000001010 F
+b1101 (
+b1101 ;
+b1101 D
+b1101 A
+10
+1<
+0*
+#150
+b1101 ?
+00
+0<
+1*
+#160
+b1110 )
+b1110 >
+b1110 @
+b1110 C
+b1111 (
+b1111 ;
+b1111 D
+b1111 A
+10
+1<
+0*
+#170
+b1111 ?
+00
+0<
+1*
+#175

@@ -1,0 +1,7 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  // Controls the font size in pixels.
+  "editor.fontSize": 13,
+  // El número de espacios a los que equivale una tabulación. Este valor se invalida según el contenido del archivo cuando `editor.detectIndentation` está activado.
+  "editor.tabSize": 2
+}

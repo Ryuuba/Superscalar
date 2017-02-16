@@ -1,0 +1,69 @@
+[*]
+[*] GTKWave Analyzer v3.3.71 (w)1999-2016 BSI
+[*] Thu Feb 16 07:04:17 2017
+[*]
+[dumpfile] "C:\Users\Geo\Dropbox\Documents\Code\Architecture\asic\Superscalar\processor.vcd"
+[dumpfile_mtime] "Thu Feb 16 07:00:33 2017"
+[dumpfile_size] 6630
+[savefile] "C:\Users\Geo\Dropbox\Documents\Code\Architecture\asic\Superscalar\processor.gtkw"
+[timestart] 0
+[size] 1268 710
+[pos] -1 -1
+*-12.223507 16000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] Testbench.
+[treeopen] Testbench.proc_u.
+[sst_width] 197
+[signals_width] 235
+[sst_expanded] 1
+[sst_vpaned_height] 192
+@28
+[color] 6
+Testbench.clk
+[color] 6
+Testbench.preset
+Testbench.proc_u.proc_status[8:0]
+@200
+-path0
+@28
+[color] 2
+Testbench.proc_u.functional_u0.prediction
+@22
+Testbench.proc_u.functional_u0.n[15:0]
+@28
+[color] 3
+Testbench.proc_u.functional_u0.done
+@22
+Testbench.proc_u.res0[15:0]
+@28
+Testbench.proc_u.functional_u0.ctrlword[2:0]
+@200
+-path1
+@28
+[color] 2
+Testbench.proc_u.functional_u1.prediction
+@22
+Testbench.proc_u.functional_u1.n[15:0]
+@29
+[color] 3
+Testbench.proc_u.functional_u1.done
+@22
+Testbench.proc_u.res1[15:0]
+@28
+Testbench.proc_u.functional_u1.ctrlword[2:0]
+@200
+-Dispatcher
+@28
+Testbench.proc_u.dispatcher_u.zer0
+Testbench.proc_u.dispatcher_u.zer1
+@200
+-Address
+@22
+Testbench.proc_u.addr0[4:0]
+Testbench.proc_u.addr1[4:0]
+@200
+-Data
+@22
+Testbench.proc_u.data0[15:0]
+Testbench.proc_u.data1[15:0]
+[pattern_trace] 1
+[pattern_trace] 0

@@ -10,7 +10,7 @@ module Gauss(
   data,         //Input value
   status,       //Indicates whether the functional unit is available or not
   result,       //n(n+1)/2
-  prediction,   //Indictes the datapath is processing the last element
+  prediction,   //Indicates the datapath is processing the last element
   done,         //Indicates the job is done
   preset,
   clk           //Clock signal
@@ -66,7 +66,7 @@ module Gauss(
   end
 
   assign result = acum;
-  assign done = ~|n;
+  assign done = (n == 0) ? 1 : 0;
 
 endmodule // Gauss
 

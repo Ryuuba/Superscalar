@@ -90,7 +90,7 @@ module Processor(
     ctrlword_g0,    //Manages register n, and acum as well as the output
     operand0,       //Input value
     proc_status[6], //Indicates whether the functional unit is available or not
-    res1,           //n(n+1)/2
+    res0,           //n(n+1)/2
     proc_status[2], //Indictes the datapath is processing the last element
     done[0],        //Indicates the job is done
     preset,
